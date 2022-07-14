@@ -1,10 +1,7 @@
 ThinkPython
 ===========
 
-LaTeX source, code examples, and exercise solutions from Think Python: How to Think Like a Computer Scientist
+Este repositorio tiene como objetivo documentar mi uso del libro ThinkPython.
 
-by Allen B. Downey
+Mi idea al recurrir al texto del profesor Allen Downey, es tener una introducción práctica a conceptos de computer science. De este libro espero avanzar la profundidad de mis conocimientos sobre computer science y volverme más hábil en el uso de python, github y git, ya sea con la terminal de git bash o VSCode.
 
-Available from Green Tea Press at http://thinkpython.com
-
-Published by O'Reilly Media: http://shop.oreilly.com/product/0636920025696.do
