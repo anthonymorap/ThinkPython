@@ -64,5 +64,23 @@ SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 ```
 El interprete entiende que le faltan los paréntesis a la función `print()`.
 
+1.2 If you are trying to print a string, what happens if you leave out one of the quotation marks, or both?
+
+```{{python}}
+print(Texto sin quotation marks)
+
+  Cell In [6], line 1
+    print(Texto sin quotation marks)
+          ^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+```
+
+
+# Capitulo 2: Variables, expresiones y argumentos
+
+
+
+
+
 
 
