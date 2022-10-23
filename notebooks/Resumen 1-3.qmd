@@ -27,16 +27,42 @@ Debajo el cuadro muestra la estructura básica de un programa.
 
 Para crear estos programas necesitamos un medio a través del cual podamos comunicarnos con el computador. En nuestro caso utilizaremos **Python**, un lenguaje formal sin las ambiguedades de un lenguaje natural como el español, y de alto nivel, por lo que es de fácil comprensión para humanos.
 
+El interprete de Python es un programa que nos permite ejecutar códigos Python.
+
 ```{python}
-#| echo: true
 print('hello world!!')
 ```
 
-```{python}
-1 + 1
+Además tenemos acceso a operadores matemáticos, podemos almacenar valores de distintos tipos dentro de variables. Tipos como strings, integers o floating-point numbers.
+
+El uso de un lenguaje formal nos permite obviar los problemas del lenguaje natural como la ambiguedad, redundancia enunciados que no pueden interpretarse de forma literal. Nuestros programas deben ser inambiguos, literales y debemos poder entenderlos completo a través del análisis de tokens y estructura.
+
+**Debugging** es la tarea de los programadores de encontrar bugs y resolverlos para que los programas ejecuten como esperamos.
+
+## Ejercicios
+
+1.1 In a print statement, what happens if you leave out one of the parentheses, or both?
+
+
+```{{python}}
+print('hello world!!'
+
+  Cell In [4], line 1
+    print('hello world!!'
+                         ^
+SyntaxError: incomplete input
 ```
+El interprete entiende que nuestro input esta incompleto, por lo que comprende la función.
 
+```{{python}}
+print('hello world!!'
 
-```{python}
-
+  Cell In [5], line 1
+    print'hello world!!'
+    ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 ```
+El interprete entiende que le faltan los paréntesis a la función `print()`.
+
+
+
