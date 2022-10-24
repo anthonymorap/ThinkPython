@@ -146,6 +146,14 @@ print('En promedio tomaría {:.2} minutos cada milla, mientras que el promedio p
 
 Como mencionabamos sobre valores y variables anteriormente, tenemos la oportunidad de realizar assignment statements con los cuales almacenamos valores dentro de variables.
 
+Tipos de errores en programas:
 
+- Syntax
+- Runtime
+- Semantic
+
+## Ejercicios
+
+# Capitulo 3:
 
 
