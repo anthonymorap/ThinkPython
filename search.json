@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ThinkPython",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "Capitulo 2.html",
+    "href": "Capitulo 2.html",
+    "title": "Aprendiendo Computer Science de forma practica!!!",
+    "section": "",
+    "text": "Este capítulo tambien es sencillo, abarca conocimientos introductorios que dominamos.\nAquí se tratan los conceptos de asignación a una variable, como combinamos valores, variables y operadores para generar expresiones, el uso de scripts para almacenar grandes cantidades de codigos, el orden de las operaciones según PEMDAS y las operaciones entre string variables.\n\n\nSe mencionan 3 tipos de errores que pueden ocurrir en un programa:\n\nsyntax error:\n\nLa sintaxis se refiere a la estructura del programa y las reglas sobre esa estructura. Cosas como que nos falten un paréntesis nos van a arrojar errores de sintaxis.\n\nruntime error\n\nTambien les conocemos como excepeciones, ya que usualmente indican que algo excepcional ha ocurrido.\n\nsemantic error\n\nTienen que ver con el significado. Estos permiten que el programa corra sin arrojar mensaje alguno, pero no van a funcionar como nosotros esperamos. En estos errores debemos corregir la forma en que formulamos los pasos a seguir, ya que el programa esta simplemente haciendo lo que nosotros le indicamos que hiciera."
+  },
+  {
+    "objectID": "Resumen 1-3.html",
+    "href": "Resumen 1-3.html",
+    "title": "Resumen 1-3",
+    "section": "",
+    "text": "El autor nos presenta las habilidades de solución de problemas como las más importantes en el mundo del computer science. Ya que esto se traduce en la habilidad de formular problemas, pensar de forma creativa las soluciones, y expresar todo de forma clara y concisa.\nPara atacar estos problemas requerimos de programas que nos serviran de herramientas para realizar tareas con el computador.\nDebajo el cuadro muestra la estructura básica de un programa.\n\n\n\n\n\n\n\nElemento\nDescripción\n\n\n\n\ninput\norigen de los datos como el teclado, un archivo, la red u otro dispositivo\n\n\noutput\nse muestra los datos en la pantalla, se graban en otro archivo o se envían\n\n\nmath\noperaciones de matemáticas simples como suma y multiplicación\n\n\nconditional execution\nun chequeo de condiciones para correr el código apropiado\n\n\nrepetition\nrealizar una acción de forma repetida, probablemente con variaciones\n\n\n\n\n\nPara crear estos programas necesitamos un medio a través del cual podamos comunicarnos con el computador. En nuestro caso utilizaremos Python, un lenguaje formal sin las ambiguedades de un lenguaje natural como el español, y de alto nivel, por lo que es de fácil comprensión para humanos.\nEl interprete de Python es un programa que nos permite ejecutar códigos Python.\n\nprint('hello world!!')\n\nhello world!!\n\n\nAdemás tenemos acceso a operadores matemáticos, podemos almacenar valores de distintos tipos dentro de variables. Tipos como strings, integers o floating-point numbers.\nEl uso de un lenguaje formal nos permite obviar los problemas del lenguaje natural como la ambiguedad, redundancia enunciados que no pueden interpretarse de forma literal. Nuestros programas deben ser inambiguos, literales y debemos poder entenderlos completo a través del análisis de tokens y estructura.\nDebugging es la tarea de los programadores de encontrar bugs y resolverlos para que los programas ejecuten como esperamos.\n\n\n\n1.1 In a print statement, what happens if you leave out one of the parentheses, or both?\n```{python}\nprint('hello world!!'\n\n  Cell In [4], line 1\n    print('hello world!!'\n                         ^\nSyntaxError: incomplete input\n```\nEl interprete entiende que nuestro input esta incompleto, por lo que comprende la función.\n```{python}\nprint('hello world!!'\n\n  Cell In [5], line 1\n    print'hello world!!'\n    ^\nSyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?\n```\nEl interprete entiende que le faltan los paréntesis a la función print().\n1.2 If you are trying to print a string, what happens if you leave out one of the quotation marks, or both?\n```{python}\nprint(Texto sin quotation marks)\n\n  Cell In [6], line 1\n    print(Texto sin quotation marks)\n          ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n```\n1.3 You can use a minus sign to make a negative number like -2. What happens if you put a plus sign before a number? What about 2++2?\n\nprint(+2)\nprint(2++2)\n\n2\n4\n\n\nEl interprete ignora estos signos de más adicionales.\n1.4 In math notation, leading zeros are okay, as in 02. What happens if you try this in Python?\n```{python}\nprint(02)\n\n  Cell In [7], line 1\n    print(02)\n          ^\nSyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers\n```\nEl interprete indica que leading zeros en integers no esta permitido.\n1.5 What happens if you have two values with no operator between them?\n```{python}\nprint(2 4)\n\n  Cell In [8], line 1\n    print(2 4)\n          ^\nSyntaxError: invalid syntax. Perhaps you forgot a comma?\n```\nSintáxis no válida, pregunta si nos habrémos olvidado de una coma.\n2.1 How many seconds are there in 42 minutes 42 seconds?\n\nminutes = 42\nseconds = 42\nminutes_seconds = 42 + (seconds / 60)\ntotal_seconds = (minutes * 60) + seconds\nprint('En total son {:,} segundos.'.format(total_seconds))\n\nEn total son 2,562 segundos.\n\n\n2.2 How many miles are there in 10 kilometers? Hint: there are 1.61 kilometers in a mile.\n\nkm_in_mile = 1.61\ntotal_km = 10\ntotal_miles = round(total_km / km_in_mile, 2)\nprint('En total serían {:,} millas.'.format(total_miles))\n\nEn total serían 6.21 millas.\n\n\n2.3 If you run a 10 kilometer race in 42 minutes 42 seconds, what is your average pace (time per mile in minutes and seconds)? What is your average speed in miles per hour?\n\naverage_pace_seconds = total_seconds / total_miles\naverage_pace_minutes = average_pace_seconds / 60\naverage_pace_hour = average_pace_minutes / 60\nprint('En promedio tomaría {:.2} minutos cada milla, mientras que el promedio por hora es de {:.2} para cada milla.'.format(\n  average_pace_minutes, average_pace_hour\n))\n\nEn promedio tomaría 6.9 minutos cada milla, mientras que el promedio por hora es de 0.11 para cada milla."
+  },
+  {
+    "objectID": "Resumen 1-3.html#ejercicios-1",
+    "href": "Resumen 1-3.html#ejercicios-1",
+    "title": "Resumen 1-3",
+    "section": "Ejercicios",
+    "text": "Ejercicios"
+  }
+]
