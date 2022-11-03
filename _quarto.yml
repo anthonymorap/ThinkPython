@@ -1,6 +1,11 @@
 project:
   type: website
-
+  output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+    - Resumen 1-3.qmd
+  
 website:
   title: "Aprendiendo Computer Science de forma practica!!!"
   navbar:
@@ -8,6 +13,9 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/anthonymorap/ThinkPython-amora
   sidebar:
     style: "docked"
     search: true
