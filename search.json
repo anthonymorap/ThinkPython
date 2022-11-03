@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ThinkPython",
@@ -14,11 +7,11 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "Capitulo 2.html",
-    "href": "Capitulo 2.html",
-    "title": "Aprendiendo Computer Science de forma practica!!!",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Este capítulo tambien es sencillo, abarca conocimientos introductorios que dominamos.\nAquí se tratan los conceptos de asignación a una variable, como combinamos valores, variables y operadores para generar expresiones, el uso de scripts para almacenar grandes cantidades de codigos, el orden de las operaciones según PEMDAS y las operaciones entre string variables.\n\n\nSe mencionan 3 tipos de errores que pueden ocurrir en un programa:\n\nsyntax error:\n\nLa sintaxis se refiere a la estructura del programa y las reglas sobre esa estructura. Cosas como que nos falten un paréntesis nos van a arrojar errores de sintaxis.\n\nruntime error\n\nTambien les conocemos como excepeciones, ya que usualmente indican que algo excepcional ha ocurrido.\n\nsemantic error\n\nTienen que ver con el significado. Estos permiten que el programa corra sin arrojar mensaje alguno, pero no van a funcionar como nosotros esperamos. En estos errores debemos corregir la forma en que formulamos los pasos a seguir, ya que el programa esta simplemente haciendo lo que nosotros le indicamos que hiciera."
+    "text": "About this site"
   },
   {
     "objectID": "Resumen 1-3.html",
