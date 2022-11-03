@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://anthonymorap.github.io/ThinkPython-amora/about.html</loc>
+    <lastmod>2022-11-03T02:13:10.920Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonymorap.github.io/ThinkPython-amora/index.html</loc>
+    <lastmod>2022-11-03T02:13:11.240Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonymorap.github.io/ThinkPython-amora/Capitulo 2.html</loc>
+    <lastmod>2022-11-03T02:13:11.660Z</lastmod>
+  </url>
+  <url>
     <loc>https://anthonymorap.github.io/ThinkPython-amora/Resumen 1-3.html</loc>
-    <lastmod>2022-11-03T02:09:44.500Z</lastmod>
+    <lastmod>2022-11-03T02:13:15.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anthonymorap.github.io/ThinkPython-amora/ThinkPython-amora.html</loc>
+    <lastmod>2022-11-03T02:13:15.790Z</lastmod>
   </url>
 </urlset>

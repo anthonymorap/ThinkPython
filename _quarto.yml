@@ -1,12 +1,8 @@
 project:
   type: website
-  render:
-    - Resumen 1-3.qmd
 
 website:
   title: "Aprendiendo Computer Science de forma practica!!!"
-  site-url: https://anthonymorap.github.io/ThinkPython-amora/
-  repo-url: https://github.com/anthonymorap/ThinkPython-amora
   navbar:
     left:
       - href: index.qmd
