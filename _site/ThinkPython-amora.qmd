@@ -1,0 +1,8 @@
+---
+title: "ThinkPython por Anthony Mora"
+
+---
+
+## Quarto
+
+
